@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: auto;
+    height: 20px;
+}
+table {
+    border: 0;
+    width: 800px;
+    height: 50px;
+}
+th, td{
+    border: 0;
+    border-bottom: 1px solid;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Indie Flower', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300%;
+    height: 120vh;
+    overflow: hidden;
+}
+.container {
+    background-color: rgb(246, 247, 248);
+    width: 800px;
+    height: 500px;
+    position: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px  rgb(24, 151, 255);
+}
+.header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.header h1 {
+    margin-left: 25px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(144, 234, 250);
+    text-shadow: 3px 3px 3px #000;
+    font-size: 35px;
+}
+.iden button{
+    margin-right: 25px;
+    background-color: rgb(144, 234, 250);
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    border: 0;
+    text-align: left;
+    text-shadow: 3px 3px 3px rgb(126, 166, 173);
+
+}
+.iden p{
+    margin-left: 5px;
+    color: azure;
+}
+.iden .b {
+    margin-top: 3px;
+}
+.main {
+    text-align: center;
+    margin-left: 5px;
+}
+.main table, tr,td,th{
+    border: 7px solid transparent;
+    width: 800px;
+    height: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.row {
+    font-size: 13px;
+}
+thead, .row{
+    background-color: rgb(144, 234, 250);
+} 
+td {
+    background-color: rgb(126, 166, 173);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+}
